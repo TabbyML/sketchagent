@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: SketchAgent leaderboard
+    url: https://sketchagent.dev/
+    about: See current tasks, models, and scores before submitting.
+  - name: SketchAgent playground
+    url: https://sketchagent.dev/playground
+    about: Run a model yourself before opening a submission issue.

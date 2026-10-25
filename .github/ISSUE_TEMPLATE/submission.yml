@@ -1,0 +1,17 @@
+name: Feedback or request
+description: Feedback, a model or image request, or a benchmark run
+body:
+  - type: textarea
+    id: message
+    attributes:
+      label: Message
+      description: Include a share link if you ran a model.
+      placeholder: |
+        Feedback, model request, or benchmark result.
+
+        For a run, include:
+        - model and provider
+        - test case and prompt
+        - share link
+    validations:
+      required: true
